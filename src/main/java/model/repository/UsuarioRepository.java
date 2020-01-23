@@ -1,0 +1,9 @@
+package model.repository;
+
+import model.entity.Usuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+
+
+}

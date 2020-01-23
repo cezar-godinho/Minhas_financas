@@ -1,4 +1,6 @@
 package model.entity;
+import model.enums.StatusLancamento;
+import model.enums.TipoLancamento;
 import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 
 import javax.persistence.*;
